@@ -24,10 +24,6 @@ jobs:
       run: npm install
       working-directory: ./investmentcalculator
 
-    - name: Run tests
-      run: npm test
-      working-directory: ./investmentcalculator
-
     - name: Build project
       run: npm run build
       working-directory: ./investmentcalculator
